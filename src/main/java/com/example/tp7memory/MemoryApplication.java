@@ -12,7 +12,7 @@ public class MemoryApplication extends Application {
     public void start(Stage stage) throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(MemoryApplication.class.getResource("Memory.fxml"));
         Scene scene = new Scene(fxmlLoader.load());
-        stage.setTitle("Hello!");
+        stage.setTitle("Memory");
         stage.setScene(scene);
         stage.show();
     }
